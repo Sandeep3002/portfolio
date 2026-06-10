@@ -1,0 +1,41 @@
+﻿<!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle-description">Practical applications demonstrating full stack engineering and AI implementations.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Flora Intelligence -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="./assets/project-flora.png" alt="Flora Intelligence Engine" class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Sandeep3002" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Github"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link" aria-label="Demo"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">MobileNetV2</span>
+                                <span class="tag">Gemini API</span>
+                            </div>
+                            <h3 class="project-card-title">Flora Intelligence & Insights Engine</h3>
+                            <ul class="project-bullet-list">
+                                <li>Plant species identification using MobileNetV2</li>
+                                <li>Agricultural recommendations and insights</li>
+                                <li>AI-powered analysis using Gemini API</li>
+                                <li>Reliable and efficient prediction system</li>
+                            </ul>
+                            <div class="project-tech-footer">
+                                <strong>Technologies:</strong> Python, Machine Learning, MobileNetV2, Random Forest, Gemini API
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: StyleKart -->
+                    <div class="project-card">
+                        <div class="project-img-wrapper">
+                            <img src="./assets/project-stylekart.png" alt="StyleKart E-Comme

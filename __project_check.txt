@@ -1,0 +1,122 @@
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle-description">Practical applications demonstrating full stack engineering and AI implementations.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Flora Intelligence -->
+                    <div class="project-card">
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">MobileNetV2</span>
+                                <span class="tag">Gemini API</span>
+                            </div>
+                            <h3 class="project-card-title">Flora Intelligence & Insights Engine</h3>
+                            <ul class="project-bullet-list">
+                                <li>Plant species identification using MobileNetV2</li>
+                                <li>Agricultural recommendations and insights</li>
+                                <li>AI-powered analysis using Gemini API</li>
+                                <li>Reliable and efficient prediction system</li>
+                            </ul>
+                            <div class="project-tech-footer">
+                                <strong>Technologies:</strong> Python, Machine Learning, MobileNetV2, Random Forest, Gemini API
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: StyleKart -->
+                    <div class="project-card">
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">Full Stack</span>
+                            </div>
+                            <h3 class="project-card-title">StyleKart – E-Commerce Platform</h3>
+                            <ul class="project-bullet-list">
+                                <li>Product catalog management</li>
+                                <li>Shopping cart functionality</li>
+                                <li>Multiple product categories</li>
+                                <li>Responsive user experience</li>
+                            </ul>
+                            <div class="project-tech-footer">
+                                <strong>Technologies:</strong> React, Backend APIs, MongoDB, Full Stack Development
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: User Data Management -->
+                    <div class="project-card">
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">Full Stack</span>
+                            </div>
+                            <h3 class="project-card-title">User Data Management System</h3>
+                            <ul class="project-bullet-list">
+                                <li>User creation and management</li>
+                                <li>Data storage and retrieval</li>
+                                <li>Database integration</li>
+                                <li>Interactive dashboard</li>
+                            </ul>
+                            <div class="project-tech-footer">
+                                <strong>Technologies:</strong> Python, MongoDB, Full Stack Development
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: FarmVision -->
+                    <div class="project-card">
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">Streamlit</span>
+                                <span class="tag">FastAPI</span>
+                                <span class="tag">Flask</span>
+                            </div>
+                            <h3 class="project-card-title">FarmVision</h3>
+
+
+                            <ul class="project-bullet-list">
+                                <li>Agricultural data analysis</li>
+                                <li>Interactive dashboards</li>
+                                <li>API integration</li>
+                                <li>Real-world dataset processing</li>
+                            </ul>
+                            <div class="project-tech-footer">
+                                <strong>Technologies:</strong> Python, Streamlit, Flask, FastAPI, JSON APIs
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section certifications-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Certifications</h2>
+                    <p class="section-subtitle-description">Professional achievements and academic milestones.</p>
+                </div>
+
+                <div class="certificates-grid">
+                    <div class="certificate-card">
+                        <div class="certificate-card-header">
+                            <i class="fas fa-award certificate-icon-inline"></i>
+                            <h3 class="certificate-title">Career Essentials in Generative AI</h3>
+                        </div>
+                        <a href="./certificates/CertificateOfCompletion_Career Essentials in Generative AI by Microsoft and LinkedIn.pdf" target="_blank" class="btn btn-cert-outline">View Certificate</a>
+                    </div>
+
+                    <div class="certificate-card">
+                        <div class="certificate-card-header">
+                            <i class="fas fa-award certificate-icon-inline"></i>
+                            <h3 class="certificate-title">AI for Managers</h3>
+                        </div>
+                        <a href="./certificates/CertificateOfCompletion_AI for Managers by Microsoft and LinkedIn.pdf" target="_blank" class="btn btn-cert-outline">View Certificate</a>
+                    </div>

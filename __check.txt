@@ -1,0 +1,81 @@
+                    <a href="#projects" class="btn btn-primary" id="viewProjectsBtn">
+                        View Projects <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary" id="getInTouchBtn">
+                        Get In Touch
+                    </a>
+                </div>
+                <div class="contact-links-row">
+                    <a href="mailto:gvmdurgasandeep@gmail.com" class="contact-link-item" id="mailLink">
+                        <i class="far fa-envelope"></i> gvmdurgasandeep@gmail.com
+                    </a>
+                    <a href="https://github.com/Sandeep3002" target="_blank" rel="noopener noreferrer" class="contact-link-item" id="githubLink">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/gvmdurgasandeep" target="_blank" rel="noopener noreferrer" class="contact-link-item" id="linkedinLink">
+                        <i class="fab fa-linkedin-in"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-wrapper">
+                    <img src="./assets/avatar.png" alt="G.V.M. Durga Sandeep" class="avatar-img" id="heroAvatarImg">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section about-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle-description">Passionate developer bridging software engineering and machine learning.</p>
+                </div>
+                <div class="about-content-grid">
+                    <div class="about-text">
+                        <p>
+                            I am a Full Stack Developer and aspiring Data Scientist with a strong passion for Artificial Intelligence, Large Language Models (LLMs), and modern web technologies. I enjoy building intelligent applications that combine data-driven insights with user-friendly interfaces. My experience spans full-stack development, machine learning, database management, and AI-powered solutions.
+                        </p>
+                        <p>
+                            I am proficient in Python and modern development frameworks, with hands-on experience in developing scalable applications using React, FastAPI, Flask, MongoDB, and SQL. My goal is to leverage AI and software engineering to create impactful solutions that solve real-world problems.
+                        </p>
+                    </div>
+                    
+                    <div class="strengths-panel">
+                        <h3>Professional Strengths</h3>
+                        <div class="strengths-grid">
+                            <div class="strength-card">
+                                <i class="fas fa-brain"></i>
+                                <span>Problem Solving</span>
+                            </div>
+                            <div class="strength-card">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Analytical Thinking</span>
+                            </div>
+                            <div class="strength-card">
+                                <i class="fas fa-users"></i>
+                                <span>Team Collaboration</span>
+                            </div>
+                            <div class="strength-card">
+                                <i class="fas fa-comments"></i>
+                                <span>Communication Skills</span>
+                            </div>
+                            <div class="strength-card">
+                                <i class="fas fa-balance-scale"></i>
+                                <span>Decision Making</span>
+                            </div>
+                            <div class="strength-card">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Continuous Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Tools</h2>
