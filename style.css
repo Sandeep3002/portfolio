@@ -516,8 +516,8 @@ body {
 }
 
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 16px;
 }
 
@@ -529,6 +529,9 @@ body {
     font-size: 0.95rem;
     color: #ffffff;
     transition: var(--transition-normal);
+    flex: 1 1 calc(33.333% - 16px);
+    min-width: 180px;
+    text-align: center;
 }
 
 .skill-pill:hover {
@@ -1172,10 +1175,6 @@ body {
         gap: 40px;
     }
     
-    .skills-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
     .internships-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1264,10 +1263,6 @@ body {
 }
 
 @media (max-width: 580px) {
-    .skills-grid {
-        grid-template-columns: 1fr;
-    }
-    
     .internships-grid {
         grid-template-columns: 1fr;
     }
