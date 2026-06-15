@@ -1167,6 +1167,11 @@ body {
         justify-content: center;
     }
     
+    .about-content-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
     .skills-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1217,6 +1222,10 @@ body {
         gap: 32px;
         transition: var(--transition-slow);
         border-left: 1px solid var(--border-color);
+    }
+    
+    .nav-actions {
+        display: none;
     }
     
     .nav-links.active {
