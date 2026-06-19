@@ -463,6 +463,7 @@ body {
     font-size: 0.9rem;
     transition: var(--transition-normal);
     border: 1px solid rgba(255, 255, 255, 0.08);
+    cursor: pointer;
 }
 
 .tab-btn.active {
