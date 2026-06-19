@@ -137,11 +137,13 @@ document.addEventListener('DOMContentLoaded', () => {
             tabButtons.forEach(btn => btn.classList.remove('active'));
             tabPanes.forEach(pane => pane.classList.remove('active'));
 
-            // Set current active
+            // Set current active button
             button.classList.add('active');
             const targetPaneId = button.getAttribute('data-tab');
             const targetPane = document.getElementById(targetPaneId);
             if (targetPane) {
+                // Force reflow to restart CSS animation
+                void targetPane.offsetWidth;
                 targetPane.classList.add('active');
             }
         });
