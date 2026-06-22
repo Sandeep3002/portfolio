@@ -1,5 +1,5 @@
 /* ==========================================================================
-   DESIGN SYSTEM & VARIABLES (PRANAV PORTFOLIO THEME)
+   DESIGN SYSTEM & VARIABLES (DURGA SANDEEP PORTFOLIO THEME)
    ========================================================================== */
 :root {
     /* Color Palette - Deep Navy/Slate theme from reference */
@@ -552,92 +552,6 @@ body {
     background: rgba(2, 6, 23, 0.7);
 }
 
-/* ==========================================================================
-   INTERNSHIPS & TRAINING SECTION
-   ========================================================================== */
-.internships-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-}
-
-.internship-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border-color);
-    padding: 32px;
-    border-radius: 12px;
-    transition: var(--transition-normal);
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
-.internship-card:hover {
-    border-color: var(--border-color-hover);
-    transform: translateY(-4px);
-    background: var(--bg-card-hover);
-}
-
-.internship-badge {
-    align-self: flex-start;
-    background: rgba(2, 132, 199, 0.1);
-    color: var(--accent-cyan);
-    font-size: 0.75rem;
-    font-weight: 600;
-    padding: 4px 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.internship-title {
-    font-size: 1.3rem;
-    margin-bottom: 4px;
-    font-weight: 600;
-}
-
-.internship-company {
-    font-size: 0.95rem;
-    color: var(--text-secondary);
-    font-weight: 500;
-    margin-bottom: 12px;
-    display: block;
-}
-
-.internship-date {
-    font-size: 0.85rem;
-    color: var(--text-muted);
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
-
-.internship-details {
-    list-style-type: none;
-    margin-top: auto;
-}
-
-.internship-details li {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-    margin-bottom: 10px;
-    position: relative;
-    padding-left: 14px;
-    line-height: 1.5;
-}
-
-.internship-details li::before {
-    content: '•';
-    position: absolute;
-    left: 0;
-    color: var(--accent-cyan);
-}
-
-.internship-details li:last-child {
-    margin-bottom: 0;
-}
 
 /* ==========================================================================
    PROJECTS SECTION
@@ -676,17 +590,6 @@ body {
     height: 100%;
     object-fit: cover;
     transition: var(--transition-slow);
-}
-
-.project-placeholder-visual {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, rgba(2, 132, 199, 0.1), rgba(6, 182, 212, 0.1));
-    font-size: 3rem;
-    color: var(--accent-cyan);
 }
 
 .project-overlay {
@@ -759,12 +662,6 @@ body {
     font-weight: 600;
 }
 
-.project-card-description {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-    line-height: 1.6;
-}
-
 .project-bullet-list {
     list-style-type: none;
     margin-top: 8px;
@@ -785,20 +682,6 @@ body {
     position: absolute;
     left: 0;
     color: var(--accent-cyan);
-}
-
-.project-detail-photo {
-    margin: 18px 0;
-    overflow: hidden;
-    border-radius: 14px;
-    border: 1px solid rgba(255,255,255,0.08);
-}
-
-.project-detail-img {
-    width: 100%;
-    display: block;
-    height: auto;
-    object-fit: cover;
 }
 
 .project-tech-footer {
@@ -1195,10 +1078,7 @@ body {
         grid-template-columns: 1fr;
         gap: 40px;
     }
-    
-    .internships-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+
     
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -1284,10 +1164,6 @@ body {
 }
 
 @media (max-width: 580px) {
-    .internships-grid {
-        grid-template-columns: 1fr;
-    }
-    
     .projects-grid {
         grid-template-columns: 1fr;
     }
